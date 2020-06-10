@@ -1,0 +1,54 @@
+@import ./_variables
+@import ./reset
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap')
+
+
+/* COMMON */
+body
+	font-family: 'Raleway', sans-serif
+	font-weight: 400
+	font-size: 18px
+	color: #2D2D2D
+	@media(min-width: 1800px)
+		font-size: 22px
+
+
+
+main
+	background: linear-gradient(45deg, #D47490, #74D1D4)
+	position: relative
+	min-height: 100vh
+	overflow: hidden
+	padding: 50px
+
+
+h1
+	font-size: 40px
+	font-weight: 200
+	color: white
+
+
+
+
+
+#cacheController
+	display: grid
+	grid-template-columns: 1fr 1fr
+	grid-gap: 50px
+	margin-top: 50px
+	max-width: 800px
+	@media(max-width: 800px)
+		grid-template-columns: 1fr
+
+
+section
+	background-color: white
+	box-shadow: $general-box-shadow
+	border-radius: 10px
+	padding: 20px
+
+
+
+
