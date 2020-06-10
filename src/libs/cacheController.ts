@@ -117,7 +117,7 @@ export default class CacheController{
             localStorage.setItem(this.withCountPrefix(key), newValue)
 
 
-            console.log('key "'+key + '" update its count: ' + newValue)
+            console.log('key "'+key + '" updated its count: ' + newValue)
         }
 
     }
